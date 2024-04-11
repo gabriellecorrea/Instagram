@@ -1,5 +1,5 @@
 body {
-  background-color: #d9d9d9;
+  background-color: #fafafa;
 }
 
 #root {
@@ -10,20 +10,44 @@ body {
 
 .ConteudoLateralEsquerda,
 .ConteudoCentral,
-.ConteudoLateralDireita {
+.ConteudoLateralDireita { 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 30vw;
+}
+
+.ConteudoLateralEsquerda {
+  display: flex;
+  justify-content: space-between;
+  width: 15vw;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+
+.ConteudoLateralEsquerda ul {
+  list-style: none;
   display: flex;
   flex-direction: column;
 }
 
-.ConteudoLateralEsquerda {
-  
-  background-color: aqua;
-}
-
 .ConteudoCentral {
-
+  width: 65vw;
+  background-color: rgb(255, 249, 161);
 }
 
 .ConteudoLateralDireita {
+  background-color: blue;
+  width: 20vw;
+}
 
+.perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.perfil img {
+  width: 20px;
+  height: 20px;
 }
