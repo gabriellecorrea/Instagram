@@ -1,5 +1,6 @@
 body {
-  background: #fafafa;
+  background: #ffffff;
+  padding-left: 18vw;
 }
 
 #root {
@@ -18,18 +19,21 @@ body {
 
 .conteudoLateralEsquerda {
   display: flex;
-  width:17vw;
+  position: fixed;
+  width: 18vw;
   background: white;
   line-height: 20px;
+  box-shadow: 0px 0px 1px black;
+  left: 0;
 }
 
 .conteudoLateralDireita {
   background: blue;
-  width:20vw;
+  width:50vw;
 }
 
 .conteudoCentral {
-  width:65vw;
-  background: #fafafa;
+  width: 65vw;
+  background: #ffffff;
 }
 

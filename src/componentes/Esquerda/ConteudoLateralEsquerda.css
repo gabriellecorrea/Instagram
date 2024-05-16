@@ -1,6 +1,5 @@
 .conteudoLateralEsquerda{
-    line-height: 70px;
-    
+    line-height: 55px;
 }
 
 .conteudoLateralEsquerda ul{
@@ -15,14 +14,14 @@ ul li{
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    font-size: 20px;
+    font-size: 17px;
     
 }
 
 .conteudoLateralEsquerda img{
-    width: 170px;
-    height: 70px;
-    margin: 20px;
+    width: 109px;
+    height: 39px;
+    margin: 34px 20px 10px 21px;
 }
 
 .conteudoLateralEsquerda .Profile{
