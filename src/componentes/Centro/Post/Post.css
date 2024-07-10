@@ -1,11 +1,46 @@
 .Post {
-    width: 500px;
+    width: 30em;
 }
 
-.Post .card-header {
-    background: blue;
+.card-header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    font-weight: 500;
+    font-size: 1em;
+    margin-left: 0;
+    gap: 1em;
 }
 
 .Post .card-body img {
    width: 100%;
+}
+
+.foto {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    border: 2px solid #fada62;
+}
+
+.card-header h3 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.card-body svg {
+    font-size: 1.5em;
+    padding-right: 0.5em;
+}
+
+.card-footer h3 {
+    margin: 0.5em 0;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.card-footer p {
+    color: #737373;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #dbdbdb;
 }

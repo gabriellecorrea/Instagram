@@ -14,7 +14,7 @@ ul li{
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    font-size: 17px;
+    font-size: 1.2em;
     
 }
 
@@ -27,4 +27,5 @@ ul li{
 .conteudoLateralEsquerda .Profile{
     margin-top: auto;
   }
+
 

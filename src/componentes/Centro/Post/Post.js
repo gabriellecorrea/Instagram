@@ -1,8 +1,9 @@
 import { useState } from "react";
 
 import './Post.css';
-import { FaRegGrinHearts} from "react-icons/fa";
-import { AiOutlineMessage } from "react-icons/ai";
+import { FaRegHeart } from "react-icons/fa6";
+import { PiChatCircleBold } from "react-icons/pi";
+
 
 /*
 var likes = 0;
@@ -24,6 +25,7 @@ export default function Post(props) {
     return (
         <div className="card Post">
             <div className="card-header">
+                <img src={props.imgpost} className='foto'/>
                 <h3>{props.title}</h3>
             </div>
             <div className="card-body">
@@ -57,17 +59,18 @@ export default function Post(props) {
                     //     'red'
                 }
                 
-                <FaRegGrinHearts 
+                <FaRegHeart 
                     onClick={() => setLikes(likes + 1)} 
                     style={{color: likes % 2 === 0 ? 'black' : 'red',
                     cursor: 'pointer',
-                    border: '1px solid red'}} 
+                    }} 
                 />
 
-                <AiOutlineMessage />
-                <p>{props.body}</p>
+                <PiChatCircleBold />
             </div>
             <div className="card-footer">
+            <h3>{props.title}{props.descricao}</h3>
+            <p>Ver todos os {props.numero} comentários</p>
             </div>
         </div>
     )

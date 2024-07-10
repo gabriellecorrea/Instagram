@@ -5,6 +5,7 @@
     align-items: center;
     height: 100vh;
     background-color: #ffffff;
+    gap: 1.5em;
 }
 
 .Story {
@@ -14,16 +15,13 @@
     align-items: center;
     width: 60px;
     height: 60px;
-    margin: 10px 7px;
-    padding: 10px 0;
-    gap: 0;
 }
 
 .Story img {
-    width: 57px;
-    height: 57px;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
-    border: 1px solid orange;
+    border: 2px solid #fada62;
     
 }
 
